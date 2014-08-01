@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	clear: both;
+	margin: auto;
+	width: 920px;
+}
+
+body, div, table {
+	padding: 5px;
+}
+
+header {
+	border-bottom: 1px solid black;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+header>p {
+	margin: auto;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: cursive;
+	color: maroon;
+}
+
+#content {
+	padding: 5px;
+	overflow: hidden;
+}
+
+#productList {
+	width: auto;
+	padding: 10px;
+}
+#cost{
+	float: right;
+}
+#cost_title{
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+}
+
+a:HOVER {
+	color: red;
+}
+
+table{
+	border: 1px solid black;
+	margin: auto;
+	width: 80%;
+}
+tr{
+
+	padding: 10px
+}
+th{
+	outline: 1px solid black;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+td{
+	margin: auto;
+	text-align: center;
+	max-width: auto;
+	min-width: 50px;
+	border-bottom: 1px solid black;	
+	padding: 5px;
+}
+
+input[type=text] {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	padding-left: 40px;
+	font-size: 16px;
+	font-family: raleway;
+}
+
+
+#error {
+	text-align: center;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#logout{
+	text-align: right;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-right: 40px;
+	top: 20px;
+	position: relative;
+}
