@@ -3,9 +3,7 @@
  */
 package com.nagarro.assignment5.user.pojo;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * @author hiteshgarg

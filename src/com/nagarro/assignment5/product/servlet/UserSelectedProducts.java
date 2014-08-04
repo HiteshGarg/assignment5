@@ -1,6 +1,7 @@
 package com.nagarro.assignment5.product.servlet;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.nagarro.assignment5.constants.Constants;
 import com.nagarro.assignment5.exception.CustomException;
-import com.nagarro.assignment5.product.dao.ProductDao;
 import com.nagarro.assignment5.product.dto.ProductDto;
 import com.nagarro.assignment5.product.services.UserProductService;
 
